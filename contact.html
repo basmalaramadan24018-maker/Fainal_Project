@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Arab Contractors for your construction project needs. Get a free consultation and quote.">
+    <title>Contact Us | Arab Contractors</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">El Mokawloon </span>
+                <span class="brand-highlight">El Arab</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary ms-lg-3">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <div class="page-header-content">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Contact</li>
+                    </ol>
+                </nav>
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-description">
+                    Ready to start your project? Get in touch with us for a free consultation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Info -->
+                <div class="col-lg-4">
+                    <div class="contact-info-wrapper">
+                        <h3 class="contact-info-title">Get In Touch</h3>
+                        <p class="contact-info-description">
+                            Have questions about your construction project? We are here to help. 
+                            Reach out to us through any of the following channels.
+                        </p>
+                        
+                        <div class="contact-info-cards">
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Head Office</h5>
+                                    <p>123 Construction Street<br>Cairo, Egypt 11511</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Phone</h5>
+                                    <p>+20 123 456 7890<br>+20 123 456 7891</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Email</h5>
+                                    <p>info@arabcontractors.com<br>projects@arabcontractors.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon">
+                                    <i class="bi bi-clock"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Working Hours</h5>
+                                    <p>Sunday - Thursday<br>8:00 AM - 5:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h5>Follow Us</h5>
+                            <div class="social-links">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="contact-form-wrapper">
+                        <h3 class="form-title">Request a Quote</h3>
+                        <p class="form-subtitle">Fill out the form below and our team will get back to you within 24 hours.</p>
+                        
+                        <form id="projectRequestForm" class="contact-form">
+                            <!-- Personal Information -->
+                            <div class="form-section">
+                                <h5 class="form-section-title">
+                                    <i class="bi bi-person"></i> Personal Information
+                                </h5>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="fullName" class="form-label">Full Name *</label>
+                                            <input type="text" class="form-control" id="fullName" name="fullName" required placeholder="Enter your full name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="companyName" class="form-label">Company Name</label>
+                                            <input type="text" class="form-control" id="companyName" name="companyName" placeholder="Enter company name (if applicable)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email" class="form-label">Email Address *</label>
+                                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="phone" class="form-label">Phone Number *</label>
+                                            <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Enter your phone number">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Details -->
+                            <div class="form-section">
+                                <h5 class="form-section-title">
+                                    <i class="bi bi-building"></i> Project Details
+                                </h5>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="projectType" class="form-label">Project Type *</label>
+                                            <select class="form-select" id="projectType" name="projectType" required>
+                                                <option value="">Select project type</option>
+                                                <option value="residential">Residential Building</option>
+                                                <option value="commercial">Commercial Building</option>
+                                                <option value="industrial">Industrial Facility</option>
+                                                <option value="infrastructure">Infrastructure Project</option>
+                                                <option value="water">Water & Utilities</option>
+                                                <option value="energy">Energy Project</option>
+                                                <option value="renovation">Renovation / Restoration</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="projectLocation" class="form-label">Project Location *</label>
+                                            <input type="text" class="form-control" id="projectLocation" name="projectLocation" required placeholder="City, Country">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="budget" class="form-label">Estimated Budget *</label>
+                                            <select class="form-select" id="budget" name="budget" required>
+                                                <option value="">Select budget range</option>
+                                                <option value="under-1m">Under $1 Million</option>
+                                                <option value="1m-5m">$1 Million - $5 Million</option>
+                                                <option value="5m-10m">$5 Million - $10 Million</option>
+                                                <option value="10m-50m">$10 Million - $50 Million</option>
+                                                <option value="50m-100m">$50 Million - $100 Million</option>
+                                                <option value="over-100m">Over $100 Million</option>
+                                                <option value="not-sure">Not Sure Yet</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="timeline" class="form-label">Expected Timeline *</label>
+                                            <select class="form-select" id="timeline" name="timeline" required>
+                                                <option value="">Select timeline</option>
+                                                <option value="immediate">Immediate (Within 1 month)</option>
+                                                <option value="1-3months">1-3 Months</option>
+                                                <option value="3-6months">3-6 Months</option>
+                                                <option value="6-12months">6-12 Months</option>
+                                                <option value="over-1year">Over 1 Year</option>
+                                                <option value="flexible">Flexible</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Specifications -->
+                            <div class="form-section">
+                                <h5 class="form-section-title">
+                                    <i class="bi bi-rulers"></i> Project Specifications
+                                </h5>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="landArea" class="form-label">Land/Building Area</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control" id="landArea" name="landArea" placeholder="Enter area">
+                                                <select class="form-select" style="max-width: 120px;" id="areaUnit" name="areaUnit">
+                                                    <option value="sqm">sq. meters</option>
+                                                    <option value="sqft">sq. feet</option>
+                                                    <option value="feddan">feddan</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="floors" class="form-label">Number of Floors</label>
+                                            <input type="number" class="form-control" id="floors" name="floors" placeholder="Enter number of floors" min="1">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="projectDescription" class="form-label">Project Description *</label>
+                                            <textarea class="form-control" id="projectDescription" name="projectDescription" rows="4" required placeholder="Please describe your project in detail. Include any specific requirements, features, or design preferences."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Additional Services -->
+                            <div class="form-section">
+                                <h5 class="form-section-title">
+                                    <i class="bi bi-plus-circle"></i> Additional Services Required
+                                </h5>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="designService" name="services[]" value="design">
+                                            <label class="form-check-label" for="designService">
+                                                <i class="bi bi-pencil-square"></i> Architectural Design
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="structuralService" name="services[]" value="structural">
+                                            <label class="form-check-label" for="structuralService">
+                                                <i class="bi bi-bricks"></i> Structural Engineering
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="mepService" name="services[]" value="mep">
+                                            <label class="form-check-label" for="mepService">
+                                                <i class="bi bi-lightning-charge"></i> MEP Engineering
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="interiorService" name="services[]" value="interior">
+                                            <label class="form-check-label" for="interiorService">
+                                                <i class="bi bi-palette"></i> Interior Design
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="landscapeService" name="services[]" value="landscape">
+                                            <label class="form-check-label" for="landscapeService">
+                                                <i class="bi bi-tree"></i> Landscaping
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check custom-checkbox">
+                                            <input class="form-check-input" type="checkbox" id="projectManagement" name="services[]" value="pm">
+                                            <label class="form-check-label" for="projectManagement">
+                                                <i class="bi bi-kanban"></i> Project Management
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+
+                            <!-- Submit Button -->
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="bi bi-send me-2"></i>Submit Project Request
+                                </button>
+                                <p class="form-note">
+                                    <i class="bi bi-shield-check"></i> Your information is secure and will not be shared with third parties.
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                           <span class="brand-text">El Mokawloon </span>
+                <span class="brand-highlight">El Arab</span>
+                        </a>
+                        <p class="footer-about">
+                            One of the largest construction companies in the Middle East and Africa, 
+                            delivering excellence in construction since 1955.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Commercial</a></li>
+                        <li><a href="services.html">Residential</a></li>
+                        <li><a href="services.html">Infrastructure</a></li>
+                        <li><a href="services.html">Industrial</a></li>
+                        <li><a href="services.html">Energy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-title">Contact Info</h5>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="bi bi-geo-alt"></i>
+                            <span>123 Construction Street, Cairo, Egypt</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone"></i>
+                            <span>+20 123 456 7890</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope"></i>
+                            <span>info@arabcontractors.com</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-clock"></i>
+                            <span>Sun - Thu: 8:00 AM - 5:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 Arab Contractors. All Rights Reserved.
+                </p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
